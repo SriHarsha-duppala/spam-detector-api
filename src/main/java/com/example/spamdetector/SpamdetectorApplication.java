@@ -20,7 +20,7 @@ public class SpamdetectorApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // allow all endpoints
-                        .allowedOrigins("http://localhost:3000/"); // allow frontend
+                        .allowedOrigins("https://68b06d825ba07873f3a6e674--zippy-meerkat-03e99d.netlify.app/"); // allow frontend
             }
         };
     }
